@@ -1,0 +1,48 @@
+// nesting yapıya örnek
+nav{
+    ul{
+        li{
+            a{
+                color: red;  
+                &:hover{
+                    color: rebeccapurple;
+                    }              
+            }
+                        
+        }
+    }
+}
+// variables a örnek
+$background-color:red;
+body{
+    background-color: $background-color;
+}
+
+// extend a örnek
+.box{
+    background: black;
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}
+.box1, .box2, .box3{
+    @extend .box;
+}
+
+// mixin yapısı
+
+@mixin border
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box1{
+    @include border;
+}
+@mixin border-radius($radius)
+{
+    border-radius: $radius;
+}
+.box2{
+    @include border-radius(120px)
+}

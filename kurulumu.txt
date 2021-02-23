@@ -1,0 +1,12 @@
+ruby installer girin. orada kendi platformunuza uygun olan programı seçin.
+
+cmd ekranına gelin 
+
+ruby --version
+ruby'nin versiyonu öğrenme
+
+gem install sass
+sass'ı yükleme
+
+sass --watch .
+ilk önce cmd ekranı ile dosyanın bulunduğu klasörü seçin. sonra bu komutu uygulayın. bu komutu .scss uzantılı dosyaları css'ye çevirecek komuttur. cmd ekranı kapatmayın

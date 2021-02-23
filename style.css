@@ -1,0 +1,22 @@
+nav ul li a {
+  color: red; }
+  nav ul li a:hover {
+    color: rebeccapurple; }
+
+body {
+  background-color: red; }
+
+.box, .box1, .box2, .box3 {
+  background: black;
+  width: 200px;
+  height: 200px;
+  display: inline-block; }
+
+.box1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+
+.box2 {
+  border-radius: 120px; }
+
+/*# sourceMappingURL=style.css.map */
